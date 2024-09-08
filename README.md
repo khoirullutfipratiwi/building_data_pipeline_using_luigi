@@ -13,7 +13,7 @@
 - [Sales Data](https://hub.docker.com/r/shandytp/amazon-sales-data-docker-db) 
 - [Marketing Data](https://drive.google.com/file/d/1J0Mv0TVPWv2L-So0g59GUiQJBhExPYl6/view)
 - [Web Scrapping (Kompas.com)](https://indeks.kompas.com/?site=all&page)
-  > _Desclaimer: The used website is allowed to perform web scrapping_
+  > _Desclaimer: This website is allowed to perform web scrapping_
 ### Methods
 1. Extract and Validate Data
     - [x] Collect the data
@@ -36,14 +36,13 @@
     
 
 ## Designing ETL Pipeline
-![pipeline](https://github.com/user-attachments/assets/ad260002-d412-4ec6-98ba-229411d16343 "ETL Pipeline")
-ETL (Extract, Transform, Load) design involves planning and structuring the data pipeline to efficiently move and transform data from source systems to a target system. It requires careful consideration of factors such as data sources, target systems, transformation requirements, performance considerations, and scalability. 
+![pipelineku](https://github.com/user-attachments/assets/6f82efa0-a0c6-4c6e-8630-94da05136bbc "ETL Pipeline Design")
+  ETL (Extract, Transform, Load) design involves planning and structuring the data pipeline to efficiently move and transform data from source systems to a target system. It requires careful consideration of factors such as data sources, target systems, transformation requirements, performance considerations, and scalability. We first extract the three files from our data source to validate the data. And then we also extract them to transform into formatted data. After that, we load the three transformed file into a data warhouse in PostgreSQL database.
 
 ## Implementing ETL Pipeline
 ### Building ETL Pipeline
 We build data papeline using ETL (Extract, Transform, Load) method which in each stage has a different approach and tools and affect how we design and build the pipeline. We use script-base ETL using programming language to build custom pipeline. 
 
-### 
 ### Tools
 - Python
 - Luigi
