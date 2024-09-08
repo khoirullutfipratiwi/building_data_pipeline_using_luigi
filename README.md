@@ -10,9 +10,9 @@
 - Make Data Pipeline and its infrastructure to transform the data
 - Store the transformed data into a data warehouse in PostgreSQL 
 ### Data Source
-- Sales Data : https://hub.docker.com/r/shandytp/amazon-sales-data-docker-db 
-- Marketing Data : https://drive.google.com/file/d/1J0Mv0TVPWv2L-So0g59GUiQJBhExPYl6/view
-- Web Scrapping (Kompas.com) : https://indeks.kompas.com/?site=all&page
+- [Sales Data](https://hub.docker.com/r/shandytp/amazon-sales-data-docker-db) 
+- [Marketing Data](https://drive.google.com/file/d/1J0Mv0TVPWv2L-So0g59GUiQJBhExPYl6/view)
+- [Web Scrapping (Kompas.com)](https://indeks.kompas.com/?site=all&page)
 ### Method
 a. Extract and Validate Data
     - Collect the data
