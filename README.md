@@ -36,3 +36,4 @@
     
 
 ## Designing ETL Pipeline
+![pipeline](https://github.com/user-attachments/assets/ad260002-d412-4ec6-98ba-229411d16343 "ETL Pipeline")
