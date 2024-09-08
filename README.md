@@ -2,8 +2,8 @@
 
 ## Requirements and Gathering
 ### Problems
-- The Sales Team has sales data in the PostgreSQL Database. But there is still a lot of missing data and the data format is incorrect.
-- The Product Team also has data on Electronic Product Pricing in `.csv` format, but the data format is still messy and there are many missing values.
+- The Sales Team has sales data in the PostgreSQL database. But there is still a lot of missing data and the data format is incorrect.
+- The Product Team also has data on electronic eroduct pricing in `.csv` format, but the data format is still messy and there are many missing values.
 - The Data Scientist Team wanted to do research on NLP (Natural Language Processing) modelers, but has no data to read. The team asked the Data Engineer Team to gather the data through Web Scraping process from a website.
 ### Solutions
 - Collect data required from Web Scrapping Process, `.csv` file, and database then transform them into nice formatted data.
