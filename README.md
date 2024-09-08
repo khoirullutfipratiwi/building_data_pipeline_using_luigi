@@ -13,6 +13,7 @@
 - [Sales Data](https://hub.docker.com/r/shandytp/amazon-sales-data-docker-db) 
 - [Marketing Data](https://drive.google.com/file/d/1J0Mv0TVPWv2L-So0g59GUiQJBhExPYl6/view)
 - [Web Scrapping (Kompas.com)](https://indeks.kompas.com/?site=all&page)
+  > _Desclaimer:__The__used website is allowed to perform web scrapping_
 ### Methods
 1. Extract and Validate Data
     - [x] Collect the data
